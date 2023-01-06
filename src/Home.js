@@ -18,7 +18,7 @@ class Home extends React.Component {
           <ListGroupItem>Ajout utilisateurs (Inscription / Connection / Profil)</ListGroupItem>
           <ListGroupItem>Ajout wishlist par utilisateur</ListGroupItem>
           <ListGroupItem>Faire une page spécifique en cliquant sur image d'un film</ListGroupItem>
-          <ListGroupItem>Tests sur mobile</ListGroupItem>
+          <ListGroupItem>Modifier affichage mobile</ListGroupItem>
           <ListGroupItem>Attendre que les années soient changées avant de regénérer</ListGroupItem>
         </ListGroup>
       )
