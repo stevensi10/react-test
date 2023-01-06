@@ -1,0 +1,118 @@
+.cover {
+    object-fit: cover;
+    object-position: 0 0;
+}
+
+#page-numbers {
+    justify-content: center;
+    display: flex;
+    margin-top: 10px;
+}
+
+.statusGreen{
+    color: green;
+}
+
+.statusRed {
+    color: red;
+}
+
+/*img {
+    visibility: hidden;
+}*/
+
+.genre{
+    margin-right: 5%;
+    margin-top: 3%;
+    width: 45%;
+    display: inline-block
+}
+
+.rowGenre
+{
+    position: relative;
+}
+
+.card {
+    width: 100%;
+    flex: 1;
+    margin-top: 10px;
+}
+
+.episodeText
+{
+    font-size: 0.8em;
+}
+
+.cursorPointer
+{
+    cursor: pointer;
+}
+
+.cards {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.customLink {
+    color: blue;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+/*Supports for react-bootstrap-table2 caret. Doesn't support bootstrap 4 yet*/
+.caret {
+    display: inline-block;
+    width: 0;
+    height: 0;
+    margin-left: 2px;
+    vertical-align: middle;
+    border-top: 4px dashed;
+    border-top: 4px solid \9;
+    border-right: 4px solid transparent;
+    border-left: 4px solid transparent;
+  }
+  
+.dropup .caret, .navbar-fixed-bottom .dropdown .caret {
+    border-top: 0;
+    border-bottom: 4px dashed;
+    border-bottom: 4px solid \9;
+    content: "";
+}
+
+.youtubeLink
+{
+    position: absolute;
+    top:0;
+    right:0
+}
+
+.image-container {
+	position: relative;
+	transition: transform 0.2s;
+}
+
+.image-container:hover {
+	cursor: pointer;
+	transform: scale(1.1);
+}
+
+.image-container:hover .overlay {
+	opacity: 1;
+}
+
+.overlay {
+	position: absolute;
+	background: rgba(0, 0, 0, 0.8);
+	width: 100%;
+	transition: 0.5s ease;
+	opacity: 0;
+	bottom: 0;
+	font-size: 20px;
+	padding: 20px;
+	text-align: center;
+    color: white;
+}
