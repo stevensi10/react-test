@@ -46,7 +46,7 @@ class OrderFilter extends React.Component {
         }
       return (
         <Form.Group>
-            <Form.Label>Genre</Form.Label>
+            <Form.Label>Sort</Form.Label>
             <Form.Control as="select" onChange={this.order} value={this.props.order}>
             {options}
             </Form.Control>
